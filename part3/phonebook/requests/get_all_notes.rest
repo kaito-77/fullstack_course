@@ -7,9 +7,26 @@ content-type: application/json
 }
 
 ###
-DELETE http://localhost:3001/api/persons/3
+DELETE http://localhost:3001/api/persons/444
 content-type: application/json
 
 ###
 GET http://localhost:3001/api/persons/
 content-type: application/json
+
+###
+GET http://localhost:3001/api/persons/67bc051b5b22e4dcaf1f1b96
+content-type: application/json
+
+###
+GET http://localhost:3001/info
+content-type: application/json
+
+###
+Put http://localhost:3001/api/persons/67bc051b5b22e4dcaf1f1b96
+content-type: application/json
+
+{
+    "name": "ffsfd",
+    "number": "3333333"
+}
